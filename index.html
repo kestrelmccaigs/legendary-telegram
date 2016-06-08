@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Space</title>
+	<!--bootstrap; css; font; jqueryx2; jsx3-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/helper.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="main">
+		<div class="container" id="gameBook">
+			<h1>TimeSpace</h1>
+			<p>Welcome to TimeSpace, a web-based choose-your-own-adventure!</p>
+			<p>Are you ready to play?</p>
+			<span class="receiver"><p><button type="button" id="play" class="btn btn-default btn-lg">YES</button><button type="button" id="noPlay" class="btn btn-default btn-lg">NO</button></p></span>
+			<div class="gameplay" id="gamer">
+				<p id="gameplay"></p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/model/characters.js"></script>
+	<script type="text-javascript" src="js/controllers/controller.js"></script>
+	<script type="text/javascript">
+
+	if(document.getElementsByClassName('receiver').length ===0) {
+		document.getElementsByClassName('receiver').style.display = 'none';
+	}
+	if(document.getElementsByClassName('gameplay').length === 0) {
+		document.getElementsById('gamer').style.display = 'none';
+	}
+
+	</script>
+
+</body>
+</html>
