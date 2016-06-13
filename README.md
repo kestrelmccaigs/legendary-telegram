@@ -30,4 +30,4 @@ In the resume building js hierarchy, the links are ordered as follows: After the
 
 AT LAST SOMEONE EXPLAINS THE HIERARCHY! Now I can figure out how to implement that to this gamebook project.
 
-I may write up a short version of a CYOA (say, 3-4 story blocks, 2-3 different endings?) just to get the hang of it, before writing up the long version (which may actually have to wait until I’m done with this draft of Space Cops).
+I may write up a short version of a CYOA (say, 3-4 story blocks, 2-3 different endings?) just to get the hang of it, before writing up the long version.
