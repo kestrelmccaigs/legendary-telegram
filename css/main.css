@@ -1,0 +1,25 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #4a4a4c;
+	text-align: center;
+	margin: 0 0 80px;
+	padding: 25px;
+}
+
+.container {
+	max-width: 650px;
+	background-color: #000;
+	color: #BEBFC1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footer {
+	font-size: .75em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
